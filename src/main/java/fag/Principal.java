@@ -162,7 +162,8 @@ public class Principal {
 	public static void questao9_WhileScanner(Scanner scan) {
 		System.out.println("=== QUESTÃO 9 - WHILE + SCANNER ===");
 		int quant=0;
-		for(int i = 1;i>0;i++) {
+		int i=1;
+		while(i>0){
 			System.out.println("Digite números (digite um número negativo para parar):");
 			i = scan.nextInt();
 			if(i>0) {
